@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<title>Genre Player</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
+	<script src="https://use.fontawesome.com/4f2dcd8a90.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body id="player-body">
+	<div class="expanded row" id="header">
+		<div class="column medium-12">
+			<div class="row">
+				<div><a href="index.html">Back</a></div>
+
+			</div>
+			<div class="row" id="button-row">
+				<div class="columns small-3" id="sc-button-col">
+					<button class="button" id="querySoundcloud"><i class="fa fa-soundcloud"></i></button>
+				</div>
+				<div class="column small-6 genre-heading" id="genre">
+				</div>
+				<div class="columns small-3" id="tw-button-col">
+					<button class="button" id="queryTwitter"><i class="fa fa-twitter"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div class="row column" id="results-twitter">
+			
+		</div>
+		<div class="row column" id="results-soundcloud">
+			
+		</div>
+	</div>
+
+	<div id="oembed"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+	<script type="text/javascript" src="assets/javascript/player.js"></script>
+</body>
+</html>
