@@ -29,11 +29,12 @@ var genres = [
 	new Genre("synthwave", "assets/images/synthwave.gif", "assets/images/synthwave-still.gif", "synthwave"),
 	new Genre("reggae", "assets/images/reggae.gif", "assets/images/reggae_still.gif", "reggae"),
 	new Genre("country", "assets/images/country.gif", "assets/images/country-still.gif", "country"),
+	new Genre("EDM", "assets/images/EDM.gif", "assets/images/dubstepstill.gif", "EDM")
 ];
 
 var smallColPerRow = 1;
 var smallColSize = 12 / smallColPerRow;
-var mediumColPerRow = 6;
+var mediumColPerRow = 4;
 var mediumColSize = 12 / mediumColPerRow;
 
 $(document).ready(function() {
